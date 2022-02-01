@@ -6,13 +6,14 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class SQRServiceTest {
 
+
     @Test
-    public void ShoudSqrCeilNumberOfSquares() {
+    void numberOfSquares() {
         SQRService service = new SQRService();
-        int expected = 18;
-        int actual = service.sqrCeil();
+
+        int expected = 3;
+        int actual = service.numberOfSquares();
         assertEquals(expected, actual);
+
     }
-
-
 }

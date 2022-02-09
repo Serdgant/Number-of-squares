@@ -4,12 +4,12 @@ public class SQRService {
 
 
     public int numberOfSquares() {
-        int minimumValue = 150;
-        int maximumValue = 380;
+        int minimumValue = 132;
+        int maximumValue = 365;
         int counter = 0;
         for (int i = 10; i <= 99; i++) {
 
-            if (i * i >= minimumValue & i * i <= maximumValue) {
+            if (i * i >= minimumValue && i * i <= maximumValue) {
                 counter++;
 
             }

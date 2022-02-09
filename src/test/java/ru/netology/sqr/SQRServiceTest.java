@@ -11,7 +11,7 @@ class SQRServiceTest {
     void shouldNumberOfSquaresInTheGraniteRange() {
         SQRService service = new SQRService();
 
-        int expected = 7;
+        int expected = 8;
         int actual = service.numberOfSquares();
         assertEquals(expected, actual);
 

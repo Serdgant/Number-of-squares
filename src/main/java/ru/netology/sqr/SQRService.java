@@ -5,7 +5,7 @@ public class SQRService {
 
     public int numberOfSquares() {
         int minimumValue = 132;
-        int maximumValue = 365;
+        int maximumValue = 367;
         int counter = 0;
         for (int i = 10; i <= 99; i++) {
 

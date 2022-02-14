@@ -1,19 +1,25 @@
 package ru.netology.sqr;
 
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.params.ParameterizedTest;
+
+import javax.swing.*;
+import java.util.concurrent.atomic.AtomicInteger;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class SQRServiceTest {
-
+public class SQRServiceTest {
 
     @Test
-    void shouldNumberOfSquaresInTheGraniteRange() {
+    void shouldNumberOfSquaresInTheGraniteRange()
+      {
         SQRService service = new SQRService();
-
-        int expected = 7;
-        int actual = service.numberOfSquares();
+        int maximumValue = 300;
+        int minimumValue = 100;
+        int expected = 8;
+        int actual = service.numberOfSquares(minimumValue,maximumValue);
         assertEquals(expected, actual);
 
     }
-}
+
+ }

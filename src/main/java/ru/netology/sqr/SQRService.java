@@ -3,10 +3,8 @@ package ru.netology.sqr;
 public class SQRService {
 
 
-    public  int numberOfSquares(int minimumValue,int maximumValue) {
+    public int numberOfSquares(int minimumValue, int maximumValue) {
 
-        // int minimumValue = 110;
-        // int maximumValue = 290;
 
         int counter = 0;
         for (int i = 10; i <= 99; i++) {
